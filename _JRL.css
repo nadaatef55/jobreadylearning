@@ -1,0 +1,384 @@
+/*Style*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik Maps"
+  ;
+}
+body{
+  background-image: url(Animated\ Shape.svg);
+  background-position: center;
+  background-size: cover;
+  color: white !important;
+}
+#Language {
+    background-color: black;
+    float: right;
+    height: 15px;
+    padding-top: 7px;
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+    padding-left: 10px;
+}
+
+a {
+    color: white;
+    font-style: italic;
+}
+
+nav{
+    background-color: #3775b8;
+    height: 50px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: center; */
+  }
+  .logo{
+    margin-top: 5px
+  }
+  .navv{
+    list-style-type: none;  
+  }
+  .navv ul{float: right;}
+  .navv ul li{
+  display: inline-block;
+  padding-top: 15px;
+  
+  }
+  .navv ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    border-radius: 6px;
+  }
+  .navv ul li a:hover{
+    /* font-weight: bold; */
+    background-color: #02728f;
+    transition: .5s;
+  }
+  .search {
+    padding: 5px 15px;
+    background: white;
+    height: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+   }
+   .search input{
+    
+     border: none;
+     outline: none;
+     background: transparent;
+   }
+   .btn{
+     background: #049bc1;
+     border: 0;
+     outline: 0;
+     width:40px;
+     height: 20px;
+     border-radius: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     color: white;
+     
+   }
+   .btn:hover{
+     cursor: pointer;
+     transition: 0.5s;
+     background-color: #234161;
+   }
+footer{
+  height: 40px;
+  margin: 5px;
+  margin-top: 150px;
+  padding-top: 10px; 
+  font-size: 20px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 99%;
+}
+/* End Style*/
+
+/* home */
+.a_Home{
+  background-color: #909090;
+}
+h1{
+  color:white;
+  font-weight:900;
+  margin-left: 30px;
+  font-size: 50px;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.pref{
+display: flex;
+align-items: center;
+margin-left: 30px;
+}
+.p1{
+font-size: 25px;
+text-align: justify;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p1 p{
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.button1{
+height: 50px;
+width: 100px;
+border-radius: 13px;
+background-color: #3775b8;
+color: white;
+font-size: 20px;
+}
+.button1 a{
+  text-decoration: none;
+
+}
+.button1:hover{
+  background-color: #234161;
+  cursor: pointer;
+  transition: .5s;
+}
+.img1{
+  width: 450px;
+  height: 310px;
+  margin-right: 70px;
+  float: right;
+}
+/* end home */
+
+/*RoadMap*/
+.a_RoadMap{
+  background-color: #909090;
+}
+.RoadMap1 {
+  padding-left: 80px;
+  font-size: 25px;
+}
+.RoadMap2 {
+  padding-left: 80px;
+  font-size: 25px;
+}
+#finally{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/*End RoadMap*/
+
+/*Course Catalog*/
+.a_Catalog{
+  background-color: #909090;
+}
+.CA{
+color: white;
+text-decoration: none;
+font-size: 30px;
+padding-left: 40px;
+border-radius: 6px;
+}
+.CA a:hover{
+/* font-weight: bold; */
+background-color: #909090;
+transition: .5s;
+}
+/*inside Course catalog 2*/
+h2{
+  color:#fcb615;
+  font-weight:900;
+  margin-left: 30px;
+  font-size: 40px;
+}
+.PC {
+  padding-left: 150px;
+  font-size: 25px;
+}
+/*End inside course catalogs*/
+/*End Course Catalog*/
+
+/*Career coaching*/
+.a_career{
+  background-color: #909090;
+}
+/*End career coaching*/
+
+/*about*/
+.about{
+  height: 100vh;
+}
+.a_about{
+  background-color: #909090;
+}
+.h2a {
+  color:#f8b720;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 10px;
+}
+.p1a {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 5rem;
+  /*text-align: justify;*/
+}
+.p2a {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 5rem;
+  /*text-align: justify;*/
+}
+#footer-about{
+margin-top: 160px;
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+}
+/*End about*/
+
+/* signin w up */
+.Sign-Up{
+  margin-top: 2.5rem !important;
+  width: 360px ;
+  height: 590px;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin: auto;
+  border-radius :25PX ;
+}
+.Sign-in{
+  width:360px ;
+  height: 330px;
+  margin: auto;
+  border-radius : 3px; ;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius :25PX ;
+}
+.Sign-in a{
+  text-decoration: none;
+  color: #049bc1;
+}
+.Sign-in h1{
+  text-align: center;
+  padding-top: 15px;
+}
+.Sign-Up h1{
+  text-align: center;
+  padding-top: 15px;
+}
+.Sign-Up h5{
+  text-align: center;
+  font-size: medium;
+}
+form{
+ margin-left: 20px;
+ width: 300px;
+}
+.Sign-in label{
+  margin-top: 20px;
+  font-size: 18px;
+}
+.Sign-Up label{
+  margin-top: 20px;
+  font-size: 18px;
+}
+.Sign-in input{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+.Sign-Up input{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+.Sign-Up a{
+  color: 049bc1;
+  text-decoration: none;
+}
+.button {
+  height: 30px;
+  background-color: #049bc1;
+  /* background-color: #fcb615; */
+  color: whitesmoke;
+  font-size: 18px;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+  
+}
+.button:hover{
+  opacity: 0.8;
+  background-color: #035f76;
+  transition: .5s;
+}
+.p11{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+  
+}
+.p11 a{
+  color:#ffffff
+}
+.p22{
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+.link{
+  color:#010d8a ;
+}
+/* ----------------------- */
+
+/* coaching */
+.pref2{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  height: 90vh;
+  }
+.elsora{
+  float: left;
+  width: 30%;
+  margin-top: 150px;
+  /* margin-left: 100px; */
+}
+  .p7{
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+  margin-top: 100px;
+  text-align: center;
+  }
+.press{
+  font-size: 14px;
+  color: blue !important;
+  float: right;
+  transform: translateY(150px) translateX(150px);
+}
+.press a{
+  color: #010d8a;
+}
